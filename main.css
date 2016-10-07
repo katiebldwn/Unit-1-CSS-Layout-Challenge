@@ -1,0 +1,131 @@
+main {
+	margin-top: 80px;
+	padding: 0 6%;
+}
+
+/*navigation bar design code...*/
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.navbar h3{
+	font-family: "Roboto", sans-serif;
+	position: fixed;
+	left: 10px;
+	vertical-align: top;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.navbar ul{
+	float: right;
+	margin: 20px;
+	right: 10px;
+}
+
+li {
+	font-family: "Roboto", sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*search bar & magnifying glass design code...*/
+
+.searchjobs {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+html body main div.search input.searchField {
+	width: 450px;
+	height: 25px;
+	float: left;
+	position: relative;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	font-size: 16px;
+	margin-bottom: 35px;
+	padding: 0 5px;
+	margin-right: 5px;
+}
+
+html body main div.search div.submit {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.magnifying-glass {
+	display: inline-block;
+	vertical-align: bottom;
+	height: 27px;
+	width: 27px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+/*prev/next design code...*/
+
+.prevnext {
+	font-family: "Roboto", sans-serif;
+	float: left;
+	margin-bottom: 35px;
+	width: 100%;
+}
+
+.prev, .numbers, .next {
+	border: 1px solid #DDDDDD;
+	padding: 7px 25px;
+	float: left;
+	border-radius: 3px;
+}
+
+/*listing code...*/
+
+p.item{
+	float: left;
+	margin: 5px 0;
+	width: 100%;
+}
+
+p.item span {
+	font-family: "Roboto", sans-serif;
+}
+
+.date {
+	color: #CFCFD2;
+	font-size: 17px;
+}
+
+.title {
+	padding: 0px 15px;
+	color: #551A92;
+	font-weight: bold;
+}
+
+.location {
+	color: #CFCFD2;
+	font-size: 17px;
+}
